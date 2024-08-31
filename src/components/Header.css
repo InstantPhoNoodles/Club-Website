@@ -1,9 +1,25 @@
 .Header {
   margin-bottom: 0;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: rgb(226, 223, 200);
   height: 50px;
   display: flex;
   align-items: center;
-  padding: 25px 0;
+  height: 75px;
+}
+
+.Header-logo {
+  max-width: 75px;
+  max-height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.Header-logo img {
+  max-width: 75px;
+  max-height: 75px;
+}
+
+.Header-banner {
+  width: 100%;
 }

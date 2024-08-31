@@ -1,13 +1,11 @@
 .Navbar {
-  margin-bottom: auto;
   color: white;
-  background-color: rgb(165, 165, 165);
-  height: 50px;
+  background-color: rgb(226, 223, 200);
+  max-height: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 12px;
-  padding: 25px 0;
 }
 
 ul {
