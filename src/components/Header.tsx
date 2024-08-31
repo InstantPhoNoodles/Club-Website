@@ -3,7 +3,7 @@ import './Header.css'
 function Header() {
   return (
     <div className='Header'>
-      <h1>WSU Tri-Cities Book and Tea Club</h1>
+      <h1>Book and Tea Club in WSU Tri-Cities</h1>
     </div>
   )
 }

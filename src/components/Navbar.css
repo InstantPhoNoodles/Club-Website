@@ -1,0 +1,22 @@
+.Navbar {
+  margin-bottom: auto;
+  color: white;
+  background-color: rgb(165, 165, 165);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  padding: 25px 0;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin: 2em;
+  color: black;
+  list-style: none;
+  background-color: white;
+}
