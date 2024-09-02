@@ -1,20 +1,24 @@
-.Navbar {
-  color: white;
-  background-color: rgb(226, 223, 200);
-  max-height: 15px;
+.Navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: rgb(150, 150, 150);
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-size: 12px;
 }
 
-ul {
-  display: flex;
+.Navbar li {
+  margin: 0;
 }
 
-li {
-  margin: 2em;
-  color: black;
-  list-style: none;
-  background-color: white;
+.Navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.Navbar a:hover {
+  background-color: rgb(67, 67, 67);
 }

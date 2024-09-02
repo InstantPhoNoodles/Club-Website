@@ -4,9 +4,9 @@ function Navbar() {
   return (
     <div className='Navbar'>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Posts</li>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Posts</a></li>
       </ul>
     </div>
   )
