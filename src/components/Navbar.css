@@ -1,3 +1,7 @@
+.Navbar {
+  height: 50px;
+}
+
 .Navbar ul {
   margin: 0;
   padding: 0;
@@ -13,8 +17,9 @@
 
 .Navbar a {
   color: white;
+  font-weight: 500;
   text-decoration: none;
-  padding: 15px;
+  padding: 15px 20px 15px 20px;
   display: block;
   text-align: center;
 }
