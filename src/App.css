@@ -15,6 +15,16 @@ main {
   width: 100%;
 }
 
+.socials {
+  height: 30vh;
+  width: 100%;
+  text-align: center;
+}
+
+.socials h2 {
+  margin: 0;
+}
+
 .about-us, .info-board {
   flex: 1;
   height: 30vh;
@@ -40,6 +50,10 @@ main {
 .about-us p, .info-board p {
   max-width: 500px;
   margin: 0;
+}
+
+.club-officers {
+  background-color: red;
 }
 
 .club-officers h2 {

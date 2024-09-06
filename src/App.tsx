@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="App">
       <Header/>
-
       <main>
         <section className='home-info'>
           <div className='about-us'>
@@ -24,11 +23,15 @@ function App() {
             </p>
           </div>
         </section>
+        <section className='socials'>
+          <div>
+            <h2>Follow Us On Our Social Media</h2>
+          </div>
+        </section>
         <section className='club-officers'>
           <h2>Club Officers</h2>
         </section>
       </main>
-      
       <Footer/>
     </div>
   )
