@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  padding: 0 250px 0 250px;
+  padding: 0 150px 0 150px;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: white;
+  background-color: rgb(121, 43, 43);
   font-family: Raleway, Arial, Helvetica, sans-serif;
 }
