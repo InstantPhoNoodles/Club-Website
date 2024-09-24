@@ -19,6 +19,10 @@
   margin: 0;
 }
 
+.socials img {
+  height: 50px;
+}
+
 .about-us, .info-board {
   flex: 1;
   height: 30vh;
