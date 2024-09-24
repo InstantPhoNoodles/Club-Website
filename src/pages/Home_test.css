@@ -1,0 +1,72 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+}
+
+/* Info Section */
+.home-info {
+  display: flex;
+  text-align: center;
+}
+
+.home-info h2 {
+  margin: 0 0 20px 0;
+}
+
+.home-info p {
+  margin: 0;
+}
+
+.about-us {
+  flex: 1;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+}
+
+.anouncment-board {
+  flex: 1;
+  padding: 20px 60px 20px 60px;
+  color: white;
+  background-color: rgb(202, 18, 55);
+}
+
+/* Club Officers Section */
+.club-officers {
+  text-align: center;
+  background-color: bisque;
+}
+
+.club-officers h2 {
+  margin: 20px 0 0 0;
+}
+
+.officer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  margin: 0 250px 20px 250px;
+}
+
+.officer {
+  text-align: center;
+}
+
+.officer img {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(0, 0, 0, 0.70);
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+/* Social Media Section */
+.socials {
+  text-align: center;
+  background-color: gray;
+}
+
+.socials img {
+  height: 50px;
+}

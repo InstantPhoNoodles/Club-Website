@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import './Home.css'
+import './Home_test.css'
 
 const Home: React.FC = () => {
   return (
@@ -10,21 +10,15 @@ const Home: React.FC = () => {
 
       {/* Home Page Content */}
       <div className='home'>
-        {/* About us and Anouncment */}
+        {/* About Us and Anouncments */}
         <section className='home-info'>
           <div className='about-us'>
             <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe officia
-              mollitia, maxime odit debitis, corrupti ipsam quod temporibus reprehenderit,
-              optio magnam cum qui reiciendis? Aut, maxime labore? Labore, commodi quasi.
-            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe officia mollitia, maxime odit debitis, corrupti ipsam quod temporibus reprehenderit, optio magnam cum qui reiciendis? Aut, maxime labore? Labore, commodi quasi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa consectetur a porro ipsa labore eaque veritatis ad illum cumque dolorem fugit nemo officiis cum quam quidem cum quam quidem cum quam quidem?</p>
           </div>
-          <div className='info-board'>
+          <div className='anouncment-board'>
             <h2>Anouncment Board</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa consectetur
-              a porro ipsa labore eaque veritatis ad illum cumque dolorem fugit nemo officiis
-              cum quam quidem ratione est, id suscipit?
-            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe officia mollitia, maxime odit debitis, corrupti ipsam quod temporibus reprehenderit, optio magnam cum qui reiciendis? Aut, maxime labore? Labore, commodi quasi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa consectetur a porro ipsa labore eaque veritatis ad illum cumque dolorem fugit nemo officiis cum quam quidem cum quam quidem cum quam quidem?</p>
           </div>
         </section>
 
@@ -33,27 +27,33 @@ const Home: React.FC = () => {
           <h2>Meet Our Officers</h2>
           <div className="officer-grid">
             <div className="officer">
-              <img src="officer1.jpg" alt="Officer 1" />
+              <h3>President</h3>
+              <img src="src\assets\off1.png" alt="Officer 1" />
               <p>Officer 1</p>
             </div>
             <div className="officer">
-              <img src="officer2.jpg" alt="Officer 2" />
+              <h3>Vice President</h3>
+              <img src="src\assets\off2.png" alt="Officer 2" />
               <p>Officer 2</p>
             </div>
             <div className="officer">
-              <img src="officer3.jpg" alt="Officer 3" />
+              <h3>Secretary</h3>
+              <img src="src\assets\off3.png" alt="Officer 3" />
               <p>Officer 3</p>
             </div>
             <div className="officer">
-              <img src="officer4.jpg" alt="Officer 4" />
+              <h3>Treasurer</h3>
+              <img src="src\assets\off2.png" alt="Officer 4" />
               <p>Officer 4</p>
             </div>
             <div className="officer">
-              <img src="officer5.jpg" alt="Officer 5" />
+              <h3>Media Director</h3>
+              <img src="src\assets\off3.png" alt="Officer 5" />
               <p>Officer 5</p>
             </div>
             <div className="officer">
-              <img src="officer6.jpg" alt="Officer 6" />
+              <h3>University Liason</h3>
+              <img src="src\assets\off1.png" alt="Officer 6" />
               <p>Officer 6</p>
             </div>
           </div>
