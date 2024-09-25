@@ -1,13 +1,17 @@
 import './Header.css'
 
-function Header() {
+const Header: React.FC = () => {
   return (
     <div className='Header'>
       <div className='wsu-logo'>
-        <img src="src\assets\wsu-red-white-logo.png" alt="WSU Logo"/>
+        <a href="https://tricities.wsu.edu/" target="_blank">
+          <img src="src\assets\wsu-red-white-logo.png" alt="WSU Logo"/>
+        </a>
       </div>
-      <div className='banner'> 
-        <h1>Book and Tea Club in WSU Tri-Cities</h1>
+      <div className='banner'>
+        <a href="/">
+          <h1>Book and Tea Club at WSU Tri-Cities</h1>
+        </a>
       </div>
     </div>
   )

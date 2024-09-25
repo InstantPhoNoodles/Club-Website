@@ -1,12 +1,12 @@
 .home {
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 /* Info Section */
 .home-info {
   display: flex;
-  background-color: white;
   text-align: center;
 }
 
@@ -44,6 +44,9 @@
   margin: 0;
   padding: 20px 0 0 0;
   background-color: bisque;
+  border-left: 2px solid rgba(0, 0, 0, 0.70);
+  border-top: 2px solid rgba(0, 0, 0, 0.70);
+  border-right: 2px solid rgba(0, 0, 0, 0.70);
 }
 
 .officer-grid {
@@ -52,6 +55,9 @@
   grid-template-rows: repeat(2, auto);
   padding: 20px 20px 20px 20px;
   background-color: bisque;
+  border-left: 2px solid rgba(0, 0, 0, 0.70);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.70);
+  border-right: 2px solid rgba(0, 0, 0, 0.70);
 }
 
 .officer {
