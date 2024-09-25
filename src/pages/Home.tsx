@@ -1,12 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
+import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
-import './Home_test.css'
+import './Home.css'
 
 const Home: React.FC = () => {
   return (
     <div>
       <Header/>
+      <Navbar/>
 
       {/* Home Page Content */}
       <div className='home'>

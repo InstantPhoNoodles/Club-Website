@@ -1,9 +1,14 @@
 body {
   margin: 0;
-  padding: 0 150px 0 150px;
+  padding: 0 10% 0 10%;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: rgb(131, 40, 40);
+
   font-family: Raleway, Arial, Helvetica, sans-serif;
+
+  background-image: url('src/assets/wsu-bg2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

@@ -1,60 +1,92 @@
 .home {
-  margin-top: 45px;
-  min-height: 100vh;
-  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
 }
 
+/* Info Section */
 .home-info {
   display: flex;
-  width: 100%;
-}
-
-.socials {
-  height: 30vh;
-  width: 100%;
+  background-color: white;
   text-align: center;
 }
 
-.socials h2 {
+.home-info h2 {
+  margin: 0 0 20px 0;
+}
+
+.home-info p {
   margin: 0;
+  text-align: left;
+}
+
+.about-us {
+  flex: 1;
+  padding: 20px 60px 40px 60px;
+  color: white;
+  background-color: rgb(202, 18, 55);
+}
+
+.anouncment-board {
+  flex: 1;
+  padding: 20px 60px 40px 60px;
+  color: white;
+  background-color: rgb(202, 18, 55);
+}
+
+/* Club Officers Section */
+.club-officers {
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  background-color: white;
+}
+
+.club-officers h2 {
+  margin: 0;
+  padding: 20px 0 0 0;
+  background-color: bisque;
+}
+
+.officer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  padding: 20px 20px 20px 20px;
+  background-color: bisque;
+}
+
+.officer {
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.officer:hover {
+  cursor: pointer;
+  background-color: rgb(214, 197, 176);
+}
+
+.officer h3 {
+  margin: 0 0 20px 0;
+}
+
+.officer img {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(0, 0, 0, 0.70);
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+.officer p {
+  margin: 20px 0 0 0;
+}
+
+/* Social Media Section */
+.socials {
+  text-align: center;
+  background-color: gray;
 }
 
 .socials img {
   height: 50px;
-}
-
-.about-us, .info-board {
-  flex: 1;
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.about-us {
-  background-color: #f5f5f5;
-}
-
-.info-board {
-  background-color: #7e7e7e;
-}
-
-.about-us h2, .info-board h2 {
-  margin: 0 0 20px 0;
-}
-
-.about-us p, .info-board p {
-  max-width: 500px;
-  margin: 0;
-}
-
-.club-officers {
-  background-color: #7e7e7e;
-  height: 100%;
-}
-
-.club-officers h2 {
-  margin: 40px 0 0 40px;
 }

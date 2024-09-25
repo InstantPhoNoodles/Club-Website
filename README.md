@@ -1,3 +1,3 @@
 Club Website
 
-test change for repo
+Website for the Book and Tea Club at WSU Tri-Cities
