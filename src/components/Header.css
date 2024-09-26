@@ -26,3 +26,8 @@
   font-size: 32px;
   margin: 0 0 0 20px;
 }
+
+.Header a {
+  color: black;
+  text-decoration: none;
+}
