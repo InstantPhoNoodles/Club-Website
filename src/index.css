@@ -7,7 +7,7 @@ body {
 
   font-family: Raleway, Arial, Helvetica, sans-serif;
 
-  background-image: url('/Club-Website/assets/background.png');
+  background-image: url('./assets/wsu-bg2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
