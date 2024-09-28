@@ -1,5 +1,9 @@
 import './Footer.css'
 
+import instagram from '../assets/instagram.png'
+import facebook from '../assets/facebook.png'
+import twitter from '../assets/twitter.png'
+
 function Footer() {
   return (
     <div className='Footer'>
@@ -15,7 +19,7 @@ function Footer() {
       {/* Facebook */}
       <div className='social-links'>
         <a href="https://www.instagram.com/wsutc_bookandteaclub/" target="_blank">
-          <img src="src\assets\facebook.png" alt="Facebook"/>
+          <img src={facebook} alt="Facebook"/>
           WSUTC_BookAndTeaClub
         </a>
       </div>
@@ -23,7 +27,7 @@ function Footer() {
       {/* Instagram */}
       <div className='social-links'>
         <a href="https://www.instagram.com/wsutc_bookandteaclub/" target="_blank">
-          <img src="src\assets\instagram.png" alt="Instagram"/>
+          <img src={instagram} alt="Instagram"/>
           WSUTC_BookAndTeaClub
         </a>
       </div>
@@ -31,7 +35,7 @@ function Footer() {
       {/* Twitter */}
       <div className='social-links'>
         <a href="https://www.instagram.com/wsutc_bookandteaclub/" target="_blank">
-          <img src="src\assets\twitter-blue.png" alt="Twitter"/>
+          <img src={twitter} alt="Twitter"/>
           WSUTC_BookAndTeaClub
         </a>
       </div>
