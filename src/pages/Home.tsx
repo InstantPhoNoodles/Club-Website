@@ -3,9 +3,13 @@ import Header from '../components/Header';
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
 import './Home.css'
+
 import off1 from '../assets/off1.png'
 import off2 from '../assets/off2.png'
 import off3 from '../assets/off3.png'
+import instagram from '../assets/instagram.png'
+import facebook from '../assets/facebook.png'
+import twitter from '../assets/twitter.png'
 
 const Home: React.FC = () => {
   return (
@@ -68,14 +72,14 @@ const Home: React.FC = () => {
         <section className="socials">
           <h2>Follow Us On Our Social Media</h2>
           <div className="social-icons">
-            <a href="https://www.instagram.com/wsutc_bookandteaclub/" target="_blank">
-              <img src="src\assets\facebook.png" alt="Facebook"/>
+            <a href="https://www.instagram.com/wsutc_bookandteaclub/" target="_blank" rel="noopener noreferrer">
+              <img src={facebook} alt="Facebook"/>
             </a>
-            <a href="https://www.instagram.com/wsutc_bookandteaclub/" target="_blank">
-              <img src="src\assets\instagram.png" alt="Instagram"/>
+            <a href="https://www.instagram.com/wsutc_bookandteaclub/" target="_blank" rel="noopener noreferrer">
+              <img src={instagram} alt="Instagram"/>
             </a>
-            <a href="https://www.instagram.com/wsutc_bookandteaclub/" target="_blank">
-              <img src="src\assets\twitter.png" alt="Twitter"/>
+            <a href={"https://www.instagram.com/wsutc_bookandteaclub/"} target="_blank" rel="noopener noreferrer">
+              <img src={twitter} alt="Twitter"/>
             </a>
           </div>
         </section>
