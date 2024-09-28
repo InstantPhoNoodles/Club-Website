@@ -4,11 +4,9 @@ import { Link } from 'react-router-dom';
 const Navbar: React.FC = () => {
   return (
     <div className='Navbar'>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="./About">About</a></li>
-        <li><a href="./Posts">Posts</a></li>
-      </ul>
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+      <Link to="/posts">Posts</Link>
     </div>
   )
 }

@@ -1,14 +1,7 @@
-.Navbar ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  background-color: rgb(166, 15, 45); /* WSU Crimson*/
+.Navbar {
   display: flex;
   justify-content: center;
-}
-
-.Navbar li {
-  margin: 0;
+  background-color: rgb(166, 15, 45); /* WSU Crimson*/
 }
 
 .Navbar a {
