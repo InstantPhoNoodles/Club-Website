@@ -6,7 +6,7 @@ import Posts from './pages/Posts';
 
 function App() {
   return (
-    <BrowserRouter basename="/Club-Website"> 
+    <> 
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} /> {/* Home route */}
@@ -14,7 +14,7 @@ function App() {
           <Route path="/posts" element={<Posts />} /> {/* Posts route */}
         </Routes>
       </div>
-    </BrowserRouter>
+    </>
   )
 }
 
