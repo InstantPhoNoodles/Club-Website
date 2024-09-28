@@ -3,6 +3,9 @@ import Header from '../components/Header';
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
 import './Home.css'
+import off1 from '../assets/off1.png'
+import off2 from '../assets/off2.png'
+import off3 from '../assets/off3.png'
 
 const Home: React.FC = () => {
   return (
@@ -30,32 +33,32 @@ const Home: React.FC = () => {
           <div className="officer-grid">
             <div className="officer">
               <h3>President</h3>
-              <img src="src\assets\off1.png" alt="Officer 1" />
+              <img src={off1} alt="Officer 1" />
               <p>Officer 1</p>
             </div>
             <div className="officer">
               <h3>Vice President</h3>
-              <img src="src\assets\off2.png" alt="Officer 2" />
+              <img src={off2} alt="Officer 2" />
               <p>Officer 2</p>
             </div>
             <div className="officer">
               <h3>Secretary</h3>
-              <img src="src\assets\off3.png" alt="Officer 3" />
+              <img src={off3} alt="Officer 3" />
               <p>Officer 3</p>
             </div>
             <div className="officer">
               <h3>Treasurer</h3>
-              <img src="src\assets\off2.png" alt="Officer 4" />
+              <img src={off2} alt="Officer 4" />
               <p>Officer 4</p>
             </div>
             <div className="officer">
               <h3>Media Director</h3>
-              <img src="src\assets\off3.png" alt="Officer 5" />
+              <img src={off3} alt="Officer 5" />
               <p>Officer 5</p>
             </div>
             <div className="officer">
               <h3>University Liason</h3>
-              <img src="src\assets\off1.png" alt="Officer 6" />
+              <img src={off1} alt="Officer 6" />
               <p>Officer 6</p>
             </div>
           </div>
