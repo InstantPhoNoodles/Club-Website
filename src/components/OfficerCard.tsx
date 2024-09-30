@@ -4,6 +4,7 @@ import off1 from '../assets/off1.png'
 function OfficerCard () {
   return (
     <div className='Card'>
+      
       <div className='officer-name'>
         <h1>Emily Lawson</h1>
       </div>

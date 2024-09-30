@@ -96,6 +96,15 @@
   height: 50px;
 }
 
+.close-button {
+  padding: 10px 0 0 0;
+  background-color: bisque;
+}
+
+.close-button:hover {
+  cursor: pointer;
+}
+
 /* Tablet */
 @media (width < 760px) {
   .home-info { display: block; }

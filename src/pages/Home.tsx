@@ -14,6 +14,12 @@ import facebook from '../assets/facebook.png'
 import twitter from '../assets/twitter.png'
 
 const Home: React.FC = () => {
+  const [showOfficerCard, setShowOfficerCard] = useState(false); // State to control showing the OfficerCard
+
+  const handleClick = () => {
+    (showOfficerCard == false) ? setShowOfficerCard(true) : setShowOfficerCard(false);
+  };
+
   return (
     <div>
       <Header/>
@@ -36,41 +42,53 @@ const Home: React.FC = () => {
         {/* Club Officiers Section */}
         <section className='club-officers'>
           <div className='border'>
-            <h1 className='officer-heading'>Meet Our Officers</h1>
-            <div className="officer-grid">
-              <div className="officer">
-                <h2>President</h2>
-                <img src={off1} alt="Officer 1" />
-                <p>Officer 1</p>
-              </div>
-              <div className="officer">
-                <h2>Vice President</h2>
-                <img src={off2} alt="Officer 2" />
-                <p>Officer 2</p>
-              </div>
-              <div className="officer">
-                <h2>Secretary</h2>
-                <img src={off3} alt="Officer 3" />
-                <p>Officer 3</p>
-              </div>
-              <div className="officer">
-                <h2>Treasurer</h2>
-                <img src={off2} alt="Officer 4" />
-                <p>Officer 4</p>
-              </div>
-              <div className="officer">
-                <h2>Media Director</h2>
-                <img src={off3} alt="Officer 5" />
-                <p>Officer 5</p>
-              </div>
-              <div className="officer">
-                <h2>University Liason</h2>
-                <img src={off1} alt="Officer 6" />
-                <p>Officer 6</p>
-              </div>
-            </div>
+            {!showOfficerCard ? (
+              <>
+                {/* Original content shown when OfficerCard is not displayed */}
+                <h1 className='officer-heading'>Meet Our Officers</h1>
+                <div className="officer-grid">
+                  <div className="officer" onClick={handleClick}> { }
+                    <h2>President</h2>
+                    <img src={off1} alt="Officer 1" />
+                    <p>Officer 1</p>
+                  </div>
+                  <div className="officer" onClick={handleClick}> { }
+                    <h2>Vice President</h2>
+                    <img src={off2} alt="Officer 2" />
+                    <p>Officer 2</p>
+                  </div>
+                  <div className="officer" onClick={handleClick}> { }
+                    <h2>Secretary</h2>
+                    <img src={off3} alt="Officer 3" />
+                    <p>Officer 3</p>
+                  </div>
+                  <div className="officer" onClick={handleClick}> { }
+                    <h2>Treasurer</h2>
+                    <img src={off2} alt="Officer 4" />
+                    <p>Officer 4</p>
+                  </div>
+                  <div className="officer" onClick={handleClick}> { }
+                    <h2>Media Director</h2>
+                    <img src={off3} alt="Officer 5" />
+                    <p>Officer 5</p>
+                  </div>
+                  <div className="officer" onClick={handleClick}> { }
+                    <h2>University Liason</h2>
+                    <img src={off1} alt="Officer 6" />
+                    <p>Officer 6</p>
+                  </div>
+                </div>
+              </>
+            ) : (
+              // OfficerCard is shown when the state is true
+              <>
+                <div className='close-button' onClick={handleClick}> { }
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </div>
+                <OfficerCard/>
+              </>
+            )}
           </div>
-          <OfficerCard/>
         </section>
 
         {/* Club Social Media Section */}
