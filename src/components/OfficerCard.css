@@ -1,31 +1,45 @@
 .Card {
-  padding: 0 20px 0 20px;
+  padding: 0;
   height: auto;
   background-color: bisque;
 }
 
-.Card p, h1, h2 {
-  margin: 20px 0 0 0;
+.Card h1 {
+  margin: 20px 0 20px 0;
+  font-size: 24px;
 }
 
-.card-top {
+.Card h2 {
+  margin: 0;
+  text-align: left;
+}
+
+.Card h3 {
+  margin: 0;
+  padding: 10px 0 0 0;
+  text-align: left;
+}
+
+.Card p {
+  margin: 0;
+  text-align: left;
+}
+
+.officer-name, .card-img {
   display: flex;
-}
-
-.officer-name, .esc{
-  width: 50%;
-}
-
-.esc {
-  text-align: right;
+  justify-content: center;
 }
 
 .Card img {
-  margin: 20px 0 0 20px;
+  margin: 0;
   width: 150px;
   height: 150px;
   border-style: solid;
   border-width: 3px;
   border-color: rgba(0, 0, 0, 0.70);
   border-radius: 8%;
+}
+
+.card-info {
+  padding: 20px;
 }

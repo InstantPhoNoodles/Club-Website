@@ -35,18 +35,19 @@
 
 /* Club Officers Section */
 .club-officers {
-  text-align: center;
   padding: 20px 20px 20px 20px;
   background-color: white;
+  text-align: center;
 }
 
-.club-officers h2 {
+.border {
+  border: 2px solid rgba(0, 0, 0, 0.70);
+}
+
+.officer-heading {
   margin: 0;
   padding: 20px 0 0 0;
   background-color: bisque;
-  border-left: 2px solid rgba(0, 0, 0, 0.70);
-  border-top: 2px solid rgba(0, 0, 0, 0.70);
-  border-right: 2px solid rgba(0, 0, 0, 0.70);
 }
 
 .officer-grid {
@@ -55,9 +56,6 @@
   grid-template-rows: repeat(2, auto);
   padding: 20px 20px 20px 20px;
   background-color: bisque;
-  border-left: 2px solid rgba(0, 0, 0, 0.70);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.70);
-  border-right: 2px solid rgba(0, 0, 0, 0.70);
 }
 
 .officer {
@@ -70,8 +68,9 @@
   background-color: rgb(214, 197, 176);
 }
 
-.officer h3 {
+.officer h2 {
   margin: 0 0 20px 0;
+  font-size: 18px;
 }
 
 .officer img {
