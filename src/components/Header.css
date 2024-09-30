@@ -32,8 +32,21 @@
   text-decoration: none;
 }
 
+.hamburger {
+  display: none;
+  background-color: rgb(166, 15, 45);
+}
+
 @media (width < 760px) {
-  .Header, .Header img { height: 50px; }
+  .Header { height: 55px; }
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+  }
+  .hamburger:hover { cursor: pointer; }
+  .Header img { display: none; }
   .Header .banner { justify-content: center; }
   .Header h1 {
     margin: 0;
