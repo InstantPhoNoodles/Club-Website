@@ -16,3 +16,7 @@
 .Navbar a:hover {
   background-color: rgb(131, 12, 36);
 }
+
+@media (width < 760px) {
+  .Navbar { height: 50px; }
+}
