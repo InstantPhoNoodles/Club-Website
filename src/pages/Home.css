@@ -96,3 +96,8 @@
 .socials img {
   height: 50px;
 }
+
+/* Tablet */
+@media (width < 760px) {
+  .home-info { display: block; }
+}

@@ -1,0 +1,31 @@
+.Card {
+  padding: 0 20px 0 20px;
+  height: auto;
+  background-color: bisque;
+}
+
+.Card p, h1, h2 {
+  margin: 20px 0 0 0;
+}
+
+.card-top {
+  display: flex;
+}
+
+.officer-name, .esc{
+  width: 50%;
+}
+
+.esc {
+  text-align: right;
+}
+
+.Card img {
+  margin: 20px 0 0 20px;
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(0, 0, 0, 0.70);
+  border-radius: 8%;
+}

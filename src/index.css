@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  
+  padding: 0 10% 0 10%;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -11,4 +11,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+
+/* Tablet */
+@media (width < 760px) {
+  body {
+    padding: 0;
+  }
 }
