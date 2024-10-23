@@ -18,5 +18,10 @@
 }
 
 @media (width < 760px) {
-  .Navbar { display: none; }
+  .Navbar {
+    display: none;
+  }
+  .Navbar.show {
+    display: flex;
+  }
 }
